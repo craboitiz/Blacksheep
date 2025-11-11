@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blacksheep by CAVS — Cristóbal Aboitiz</title>
+  <meta name="description" content="Diseñador y fabricante de productos de madera y resina — Blacksheep by CAVS" />
+  <meta property="og:title" content="Blacksheep by CAVS — Cristóbal Aboitiz" />
+  <meta property="og:description" content="Diseñador y fabricante de productos de madera y resina" />
+  <meta name="theme-color" content="#222222" />
+  <style>
+    :root {
+      --bg:#1c1c1c;
+      --card:#2a2a2a;
+      --accent:#ffcc00;
+      --text:#ffffff;
+    }
+    body {
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      padding:24px;
+    }
+    .card {
+      max-width:420px;
+      width:100%;
+      background:var(--card);
+      border-radius:14px;
+      padding:24px;
+      box-shadow:0 6px 22px rgba(0,0,0,0.3);
+      text-align:center;
+    }
+    .logo {
+      width:120px;
+      height:auto;
+      margin-bottom:12px;
+      filter:brightness(1.1);
+    }
+    h1 {
+      margin:8px 0 4px;
+      font-size:22px;
+      color:var(--accent);
+    }
+    p.role {
+      margin:0 0 14px;
+      color:#cccccc;
+      font-size:15px;
+    }
+    .buttons {
+      display:grid;
+      gap:10px;
+      margin-top:16px;
+    }
+    a.button {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      color:var(--text);
+      background:var(--accent);
+      transition:opacity .2s;
+    }
+    a.button:hover {opacity:.85;}
+    .qr {
+      margin-top:18px;
+    }
+    .qr img {
+      width:220px;
+      height:220px;
+      border-radius:10px;
+    }
+    footer {
+      margin-top:16px;
+      color:#888;
+      font-size:12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="logo blacksheep blanco.png" alt="Logo Blacksheep by CAVS" />
+    <h1>Cristóbal Aboitiz</h1>
+    <p class="role">Diseñador y fabricante de productos de madera y resina</p>
+
+    <div class="buttons">
+      <a class="button" href="tel:+56973765456">Llamar: +56 9 7376 5456</a>
+      <a class="button" href="https://wa.me/56973765456?text=Hola%2C%20me%20gustar%C3%ADa%20tener%20mas%20informaci%C3%B3n%20sobre%20los%20productos!" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="button" href="https://www.instagram.com/blacksheep_by_cavs_/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">Instagram</a>
+      <a class="button" href="contact.vcf" download>Agregar contacto (.vcf)</a>
+    </div>
+
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=260x260&data=https%3A%2F%2Fcraboitiz.github.io%2Fcontacto-totem%2F" alt="QR de contacto" />
+    </div>
+
+    <footer>
+      <small>© 2025 Blacksheep by CAVS · Todos los derechos reservados</small>
+    </footer>
+  </div>
+</body>
+</html>
